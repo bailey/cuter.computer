@@ -1,0 +1,43 @@
+header {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 400%;
+    color: white;
+    position:relative;
+}
+
+
+#overlay {
+    font-family: cursive;
+    font-size: 50%;
+    color:slategray;
+    position:absolute;
+    top:45px; left: 0;
+    margin: 0;
+    letter-spacing: 17px;
+}
+
+nav {
+    text-align: right;
+    margin-top: -150px;
+}
+
+a {
+    display: inline-block;
+    padding: 7px 12px;
+    border-radius: 15px;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    background-color: white;
+    color:slategray;
+}
+
+a:hover, a:active {
+    color: violet;
+    background-color: slategray;
+}
+
+html {background: repeating-conic-gradient(#fcdcfc 0% 25%, #caf1fc 0% 50%) 
+    50% / 200px 200px
+}
