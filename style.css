@@ -5,6 +5,11 @@ header {
     position:relative;
 }
 
+#overlay:hover {
+    font-size: 75%;
+    letter-spacing: 28px;
+}
+
 
 #overlay {
     font-family: cursive;
@@ -18,7 +23,8 @@ header {
 
 nav {
     text-align: right;
-    margin-top: -150px;
+    margin-top: -200px;
+    margin-bottom: 50px;
 }
 
 a {
@@ -40,4 +46,44 @@ a:hover, a:active {
 
 html {background: repeating-conic-gradient(#fcdcfc 0% 25%, #caf1fc 0% 50%) 
     50% / 200px 200px
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.wall {
+    position:absolute;
+    z-index: 1;
+}
+
+.desk {
+    position: absolute;
+    z-index: 2;
+}
+
+.mat {
+    position: absolute;
+    z-index: 3;
+}
+
+.bg {
+    position: absolute;
+    z-index: 4;
+}
+
+.comp {
+    position: absolute;
+    z-index: 5;
+}
+
+.mouse {
+    position: absolute;
+    z-index: 6;
+}
+
+.keeb {
+    position: absolute;
+    z-index: 7;
 }
